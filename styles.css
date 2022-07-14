@@ -1,0 +1,15 @@
+div {
+    
+    justify-content:center;
+}
+
+.slots {
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    padding: 5px;
+}
+
+.slots:hover {
+    background-color: black;
+}
