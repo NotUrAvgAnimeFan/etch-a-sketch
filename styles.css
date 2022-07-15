@@ -10,6 +10,6 @@ div {
     padding: 5px;
 }
 
-.slots:hover {
+#slots-over {
     background-color: black;
 }
