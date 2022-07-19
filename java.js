@@ -1,5 +1,7 @@
 
 function buildGrid(size) {
+    
+    const color = document.querySelector('#colorpicker');
     let dimensions = 720/size;
     const body = document.querySelector('body');
     const placeHolder = document.createElement('div');
@@ -28,8 +30,7 @@ function buildGrid(size) {
     
     for (let i = 0; i < spots.length; i++) {
         spots[i].addEventListener('mouseover', ()=> {
-            
-            spots[i].setAttribute('id', 'slots-over');
+            spots[i].style.backgroundColor = color.value;
             
         });
     }
